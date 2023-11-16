@@ -12,3 +12,17 @@ Add another print statement after the previous statement that prints my_sum
 What happens when you run the program?
 
 """
+#author: Nicholas Yepes 11/16/23
+
+# defines the function
+def find_sum(num1, num2):
+    # adds the variable together
+    num_sum = num1 + num2
+    # Return the calculated sum
+    return num_sum
+
+# finds the total sum of both variables
+my_sum = find_sum(111, 222)
+
+# Print the value of my_sum
+print(my_sum)
